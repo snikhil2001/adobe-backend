@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "https://adode.vercel.app/",
+    origin: "https://adode.vercel.app",
   })
 );
 app.use("/users", userRouter);
